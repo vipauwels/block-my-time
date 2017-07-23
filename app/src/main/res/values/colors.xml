@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white">#ffffff</color>
+    <color name="white_off">#fafafa</color>
+    <color name="grey_light">#e0e0e0</color>
+    <color name="red_sunset">#ff1744</color>
+
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/grey_light</color>
+    <color name="colorAccent">@color/red_sunset</color>
+
+    <color name="toolbar_text">@color/colorAccent</color>
+    <color name="toolbar_background">@color/white</color>
+
+    <color name="time_block_background">@color/red_sunset</color>
+    <color name="time_block_text">@color/white</color>
 </resources>
