@@ -1,13 +1,24 @@
 package com.pauwelsvi.blockmytime.models;
 
-public class TimeBlock {
+import java.io.Serializable;
 
+public class TimeBlock implements Serializable {
+
+    private Long _id;
     private String title;
-    private int time;
+    private long time;
 
-    public TimeBlock(String title, int time) {
+    public TimeBlock() {
+        // empty constructor for cupboard
+    }
+
+    public TimeBlock(String title, long time) {
         this.title = title;
         this.time = time;
+    }
+
+    public Long getId() {
+        return _id;
     }
 
     public String getTitle() {
@@ -22,7 +33,7 @@ public class TimeBlock {
         return time;
     }
 
-    public void setTime(int time) {
+    public void setTime(long time) {
         this.time = time;
     }
 

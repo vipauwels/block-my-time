@@ -5,6 +5,7 @@
     <color name="white_off">#fafafa</color>
     <color name="grey_light">#e0e0e0</color>
     <color name="red_sunset">#ff1744</color>
+    <color name="red_sunset_50">#80ff1744</color>
 
     <color name="colorPrimary">@color/white</color>
     <color name="colorPrimaryDark">@color/grey_light</color>

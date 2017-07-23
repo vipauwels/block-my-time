@@ -19,7 +19,7 @@
     <style name="ActionBarThemeOverlay">
         <item name="android:textColorPrimary">@color/toolbar_text</item>
         <item name="colorControlNormal">@color/toolbar_text</item>
-        <item name="colorControlHighlight">@color/white</item>
+        <item name="colorControlHighlight">@color/white_off</item>
         <item name="android:background">@color/toolbar_background</item>
     </style>
 
